@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+header, main, footer{
+    /* max-width: 1100px; */
+    margin:auto;
+   
+}
+.center{
+    max-width: 1100px;;
+    margin: auto;
+    padding: 2.5rem 0;
+}
+header,main, footer{
+    text-align: center;
+}
+/* main form{
+    margin:auto;
+} */
+
+header a , ul, li{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+}
+ #logo{
+     font-size: 2rem;
+     width: 20%
+ }
+ header ul {
+     width:79%;
+     text-align:right;
+ }
+
+ header li{
+     padding:0 1rem ;
+     font-size: 1rem;
+ }
+
+header, footer {
+    background-color: #2C3E50;
+    color:white;
+}
+
+section {
+    background-color:#1ABC9C;
+    color:white;
+}
+
+section p{
+    display: inline-block;
+    width : 45%;
+    font-size:0.9rem;
+}
+
+section a{
+    display: block;
+    text-decoration: none;
+    color:white;
+    border:solid white 1px;
+    border-radius: 5px;
+    width:5rem;
+    margin:2rem auto;
+    padding:1rem 2rem;
+
+}
+
+form{
+    text-align: center;
+}
+
+input ,textarea, button{
+    display:inline-block;
+    margin: 1rem 0;
+    width:51%;
+
+    
+}
+
+
+/*------------------------------------------*/
+/* header,section,article,form,footer{
+    padding: 2.5rem 0;
+} */
+section img{
+    border-radius: 50%;
+    height:10rem;
+    width:10rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h1,h2{
+    margin-bottom: 2rem;
+}
+figure{
+    padding: 5rem;
+}
+
+article img{
+    width:30%;
+    border-radius: 15px;
+    padding:0.5rem;
+}
+
+article h2, form h2,article em, form em{
+    color:#2C3E50;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+section p{
+    width:25%;
+}
+
+input, textarea{
+    border:none;
+    border-bottom: solid 1px lightslategray;
+}
+
+button{
+    border:none;
+    background-color:#1ABC9C;
+    color:white;
+    padding:1rem 4rem;
+    border-radius: 5px
+}
+
+em{
+    display: block;
+    font-weight: bolder;
+    font-size: 3rem;
+    font-style: normal;
+
+}
+hr{
+    width:15%;
+    display: inline-block;
+    vertical-align: middle;
+    border:2px solid;
+}
+
+#navbar{
+    color:white;
+    border:none;
+    background-color: #1ABC9C;
+    border-radius: 5px;
+    padding:0.5rem 1.5rem;
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+       header ul{
+            display: none;
+            /* text-align: center; */
+            padding:2.5rem 0;
+            background-color: #2C3E50;
+            position: absolute;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        li{
+            display:inline-block;
+            width:20%;
+        }
+
+        hr{
+            width: 20%;
+        }
+        #logo{
+            text-align:left;
+            width:50%;
+            display: inline-block;
+            margin-left: 1rem;
+        }
+        #navbar{
+            display:inline-block;
+            width: 15%;
+           /* position: absolute; */
+           /* top:2rem;
+           left:15rem; */
+         }
+         h1{
+             font-size: 2rem;
+         }
+         figure img{
+             width:80%
+         }
+
+         section p{
+             width:90%;
+             margin:1rem 1rem;
+         }
+
+      
+}  
