@@ -119,6 +119,7 @@ article h2, form h2,article em, form em{
 
 section p{
     width:25%;
+    margin:0 2rem;
 }
 
 input, textarea{
@@ -177,10 +178,10 @@ hr{
             width: 20%;
         }
         #logo{
-            text-align:left;
+            
             width:50%;
             display: inline-block;
-            margin-left: 1rem;
+            /* margin-left: 1rem; */
         }
         #navbar{
             display:inline-block;
